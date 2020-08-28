@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Tsuryu/bff-basu/routers"
+)
 
 func main() {
-	fmt.Println("hola mundo")
+	routers.Router()
+	fmt.Println("Server up and running")
 }
